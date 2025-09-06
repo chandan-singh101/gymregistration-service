@@ -1,0 +1,9 @@
+# Binaries
+main
+server
+
+# Logs
+*.log
+
+# Temp files
+*.txt
